@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { ImageBackground, StyleSheet, Text, View } from "react-native";
-import Footer from "./Components/Footer";
+import Footer from "../Components/Footer";
 
 export default function App() {
   const image = {
@@ -10,7 +10,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <ImageBackground source={image} resizeMode="cover" style={styles.image}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <Text>Second Page Incoming!!</Text>
         <StatusBar style="auto" />
         <Footer />
       </ImageBackground>
